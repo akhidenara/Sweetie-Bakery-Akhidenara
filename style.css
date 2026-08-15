@@ -110,13 +110,24 @@ section h3 {
 article {
     display: inline-block;
     vertical-align: top;
-    width: 31%;
+    width: 30%;
     margin: 1%;
-    padding: 20px;
+    padding: 15px;
     background-color: #fff1f5;
     border-radius: 12px;
     text-align: center;
+    overflow: hidden;
 }
+
+article img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: 0 0 15px 0;
+}
+
 
 article:hover {
     transform: translateY(-5px);
@@ -238,14 +249,4 @@ footer {
     section {
         padding: 20px;
     }
-}
-/* ==================== GAMBAR PRODUK ==================== */
-
-article img {
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    border-radius: 12px;
-    display: block;
-    margin-bottom: 15px;
 }
