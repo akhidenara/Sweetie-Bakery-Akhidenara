@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff8f5;
+    color: #4a3a36;
+    line-height: 1.6;
+}
+
+
+/* ==================== HEADER ==================== */
+
+header {
+    background-color: #f7b6c8;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 15px 0;
+    color: #6b3046;
+}
+
+
+/* ==================== NAVBAR ==================== */
+
+nav a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #fff;
+    color: #6b3046;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #6b3046;
+    color: white;
+}
+
+
+/* ==================== MAIN ==================== */
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+/* ==================== SECTION ==================== */
+
+section {
+    background-color: white;
+    margin: 30px 0;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #b94f72;
+    text-align: center;
+}
+
+section h3 {
+    color: #8d4058;
+}
+
+
+/* ==================== HOME ==================== */
+
+#home {
+    text-align: center;
+    padding: 60px 30px;
+    background-color: #ffe3eb;
+}
+
+#home h2 {
+    font-size: 35px;
+    color: #7d304c;
+}
+
+#home a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #b94f72;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+#home a:hover {
+    background-color: #7d304c;
+}
+
+
+/* ==================== MENU ==================== */
+
+article {
+    display: inline-block;
+    vertical-align: top;
+    width: 31%;
+    margin: 1%;
+    padding: 20px;
+    background-color: #fff1f5;
+    border-radius: 12px;
+    text-align: center;
+}
+
+article:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+
+/* ==================== TABLE ==================== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #b94f72;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #e5cbd3;
+}
+
+tr:nth-child(even) {
+    background-color: #fff1f5;
+}
+
+
+/* ==================== LIST ==================== */
+
+li {
+    margin-bottom: 8px;
+}
+
+
+/* ==================== FORM ==================== */
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #d9aab8;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: #b94f72;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7d304c;
+}
+
+
+/* ==================== GALERI ==================== */
+
+#galeri div {
+    display: inline-block;
+    width: 31%;
+    margin: 1%;
+    padding: 25px;
+    text-align: center;
+    background-color: #ffe3eb;
+    border-radius: 12px;
+}
+
+
+/* ==================== FOOTER ==================== */
+
+footer {
+    margin-top: 40px;
+    padding: 25px;
+    background-color: #6b3046;
+    color: white;
+    text-align: center;
+}
+
+
+/* ==================== RESPONSIVE ==================== */
+
+@media (max-width: 768px) {
+
+    article,
+    #galeri div {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #home h2 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: block;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
